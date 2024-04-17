@@ -1,0 +1,487 @@
+   html {
+      height: 100%;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0px;
+      height: 100%;
+      background: #000;
+
+  }
+
+  p{
+        line-height: 1.5;
+  }
+  a{
+    text-decoration: none;
+  }
+  .body{
+    font-family: "Inter";
+    display: flex;
+    background: #000;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+
+  }
+  .kf-body{
+    font-family: Graphik Web Regular, sans-serif !important;
+    background: #000;
+    height: 100%;
+    color: #fff;
+  }
+
+.top-nav{
+    display: none;
+    
+}
+
+  .coral-logo-topnav{
+    width: 200px;
+    padding-left:16px;
+    vertical-align: middle;
+  }
+  .hamburger{
+    display: none;
+    justify-content: space-between;
+    position: absolute;/*
+    background: #fff;*/
+    width: 100%;
+    padding: 12px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(30px);
+    align-items: center;
+}
+
+
+    .menu-icon{
+       font-size: 32px  !important;
+       padding-right:16px ;
+       cursor: pointer;
+    }
+    .material-symbols-rounded {
+    font-family: 'Material Symbols Rounded';
+    font-weight: normal;
+    font-style: normal;
+    
+}
+  .sidebar{
+    width: 250px;
+    background: #0C0C0C;
+    height: 100%;
+
+  }
+
+  .topnav{
+    background: #0C0C0C;
+    height: fit-content;
+    display: flex;
+    padding-block: 14px;
+    padding-inline: 36px;
+  }
+
+
+    .topnav-container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .topnav-logo{
+        margin: 0px !important;
+    }
+
+  .content{
+    width: 85%;
+    overflow: auto;
+  }
+
+  .img-fluid{
+    width: 100%;
+  }
+  .coral-intro{
+    display: flex;
+    padding: 5rem 6rem;
+    background: #131313;
+    grid-gap: 20px;   
+  }
+  .coral-title{
+    width: 40%;
+    font-size: 28px;
+    font-weight: 700;
+
+  }
+  .coral-desc{
+    width: 60%;
+    font-size: 20px;
+    color: #D8DCE5;
+  }
+   .coral-desc p{
+    margin: 0px;
+    text-align: left;
+   }
+   .coral-foundation{
+    padding: 5rem 6rem;
+   }
+   .foundation{
+    display: flex;
+    grid-gap: 20px;
+    
+   }
+   .foundation-card{
+  background-color: #000000;
+      cursor: pointer;
+  padding: 8px;
+
+  border-radius: 40px;
+  border: 1px solid #222222;
+}  
+
+.herobg{
+    display: none;
+}
+.foundation-card:hover{
+  background-color: #1D1D1D;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+   }
+   .foundation-card-img{
+    width: 100%;
+    border-radius: 32px;
+   }
+   .foundation-name{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 20px;
+   }
+   .foundation-title{
+    margin-bottom: 42px;
+        width: 100%;
+   }
+ /*  .core-values-title{
+     margin-bottom: 42px;
+
+   }*/
+   .coral-core-values{
+    padding: 2rem 5rem 5rem;
+   }
+   .core-icon{
+    height: 28px;
+      width:28px; 
+   }
+   .icon-style{
+    height: 28px;
+    border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(19.19999885559082px);
+    padding: 16px;
+    width: fit-content;
+   }
+   .value{
+    margin-right: 20px;
+   }
+   .core-values{
+    display: flex;
+    grid-gap: 20px;
+   }
+   .value-title{
+    font-size: 24px;
+    margin-top: 32px;
+   }
+   .value-desc{
+    color: #BDBDBD;
+    font-size: 18px;
+   }
+   .sidebar{
+    padding: 1rem ;
+   }
+   .coral-logo{
+    margin-bottom: 1em;
+    width: 200px;
+   }
+
+
+.accordion-menu {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+}
+
+.accordion-menu li:last-child .dropdown {
+    border-bottom: 0;
+}
+.accordion-menu li.active .dropdown {
+    color: #fff;
+}
+.accordion-menu li.active .dropdown  .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.menu-item{
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 24px;
+    color: #fcfcfc;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.4s ease-out;
+    width: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background: #2D2D2D;
+}
+
+.menu-item:active{
+    background: #555;
+}
+.dropdown {
+    
+}
+
+.dropdown:hover{
+    border-radius: 24px;
+    background: #2D2D2D;
+}
+  
+.dropdown  i {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+.dropdown .fa-chevron-down {
+    right: 12px;
+    left: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.submenuItems {
+    display: none;
+/*    background: #2d374d;*/
+    transition: all 2s ease-in-out;
+    list-style-type: none;
+}
+.accordion-menu  .submenuItems{
+    margin: 0px;
+}
+.accordion-menu li.active .submenuItems{
+    display: block;
+    padding-left: 20px;
+}
+
+.submenuItems a {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    padding: 8px 14px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+.submenuItems a:hover {
+      border-radius: 24px;
+    background: #2D2D2D;
+    color: #fff;
+  }
+
+@media only screen and (max-width: 1200px)
+
+{
+.sidebar{
+    width: 240px;
+  }
+.dropdown  i {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+
+   .coral-foundation{
+    padding: 4rem 3rem;
+   }
+
+  .coral-intro{
+    padding: 3rem;
+  }
+  .coral-title{
+    width: 40%;
+    font-size: 26px;
+    font-weight: 700;
+
+  }
+  .coral-desc{
+    font-size: 16px;
+  }
+
+
+   .foundation-name{
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+   }
+
+   .coral-core-values{
+    padding: 1rem 4rem 6rem;
+   }
+   .core-icon{
+    height: 24px;
+      width:24px; 
+   }
+   .icon-style{
+    height: 24px;
+    padding: 12px;
+   }
+   .value-title{
+    font-size: 22px;
+    margin-top: 28px;
+   }
+
+   .value-desc{
+    font-size: 16px;
+   }
+}
+
+.bg-img{
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media only screen and (max-width: 992px) {
+  .hamburger{
+    display: flex;
+}
+.sidebar{
+    display: none;
+  }
+
+
+.content{
+    width: 100%;
+    overflow: auto;
+  }
+.dropdown  i {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+  .coral-intro{
+    padding: 3rem 2rem;
+  }
+  .coral-title{
+    width: 40%;
+    font-size: 24px;
+    font-weight: 700;
+
+  }
+  .coral-desc{
+    font-size: 16px;
+  }
+
+   .coral-foundation{
+    padding: 3rem 2rem;
+   }
+    .foundation-title {
+    margin-bottom: 28px;
+    }
+
+   .foundation-name{
+    font-size: 18px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+   }
+
+   .coral-core-values{
+    padding: 1rem 2rem 6rem;
+   }
+   .core-icon{
+    height: 24px;
+      width:24px; 
+   }
+   .icon-style{
+    height: 24px;
+    padding: 12px;
+   }
+   .value-title{
+    font-size: 20px;
+    margin-top: 28px;
+   }
+   .value-desc{
+    font-size: 14px;
+   }
+   .img-fluid{
+   margin-top: 58px;
+   }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+.coral-intro{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 2.4rem !important;
+}
+.coral-title {
+    width: 100%;
+    font-size: 24px;
+}
+.coral-desc {
+    width: 100%;
+}
+
+.foundation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.coral-foundation {
+    padding: 3rem;
+}
+.coral-core-values {
+    padding: 3rem;
+    padding-block-end: 5rem;
+}
+.core-values{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.coral-desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.bg-img {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.herobg{
+    display: block;
+}
+.herobg-img{
+    display: none;
+}
+}

@@ -1,0 +1,19 @@
+<svg width="14" height="34" viewBox="0 0 14 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="34" fill="black"/>
+<g id="Final Design">
+<path d="M-11680 -1091C-11680 -1092.1 -11679.1 -1093 -11678 -1093H976C977.104 -1093 978 -1092.1 978 -1091V6555C978 6556.1 977.104 6557 976 6557H-11678C-11679.1 6557 -11680 6556.1 -11680 6555V-1091Z" fill="#404040"/>
+<path d="M-11678 -1092H976V-1094H-11678V-1092ZM977 -1091V6555H979V-1091H977ZM976 6556H-11678V6558H976V6556ZM-11679 6555V-1091H-11681V6555H-11679ZM-11678 6556C-11678.6 6556 -11679 6555.55 -11679 6555H-11681C-11681 6556.66 -11679.7 6558 -11678 6558V6556ZM977 6555C977 6555.55 976.553 6556 976 6556V6558C977.657 6558 979 6556.66 979 6555H977ZM976 -1092C976.552 -1092 977 -1091.55 977 -1091H979C979 -1092.66 977.656 -1094 976 -1094V-1092ZM-11678 -1094C-11679.7 -1094 -11681 -1092.66 -11681 -1091H-11679C-11679 -1091.55 -11678.6 -1092 -11678 -1092V-1094Z" fill="white" fill-opacity="0.1"/>
+<g id="Product design - Homepage" clip-path="url(#clip0_1178_4094)">
+<rect width="1600" height="4979" transform="translate(-793 -858)" fill="black"/>
+<g id="Group 338">
+<path id="Vector 66" d="M7 1V32" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 67" d="M1 27L6.29289 32.2929C6.68342 32.6834 7.31658 32.6834 7.70711 32.2929L13 27" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1178_4094">
+<rect width="1600" height="4979" fill="white" transform="translate(-793 -858)"/>
+</clipPath>
+</defs>
+</svg>
